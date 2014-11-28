@@ -1,0 +1,19 @@
+{
+	"name": "iutbay/yii2-font-awesome",
+	"description": "Simple Font Awesome helper for Yii2",
+	"keywords": ["yii2", "extension", "icon", "fontawesome"],
+	"homepage": "https://github.com/iutbay/yii2-fontawesome",
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "Kevin LEVRON",
+			"email": "kevin.levron@gmail.com"
+		}
+	],
+	"require": {
+		"fortawesome/font-awesome": "*"
+	},
+	"autoload": {
+		"psr-4": {"iutbay\\yii2fontawesome\\": ""}
+	}
+}
