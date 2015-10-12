@@ -6,15 +6,15 @@ use yii\helpers\Html;
 class FontAwesome
 {
 
-    public static function icon($iconOptions)
+    public static function icon($classes, $options = [])
     {
-        if (is_string($iconOptions)) {
-            $iconClasses = preg_split('/\s+/', $iconOptions);
+        if (is_string($classes)) {
+            $iconClasses = preg_split('/\s+/', $classes);
         } else {
             return;
         }
 
-        $options = ['class' => 'fa'];
+        Html::addCssClass($options, 'fa');
         foreach ($iconClasses as $class) {
             Html::addCssClass($options, 'fa-' . $class);
         }
