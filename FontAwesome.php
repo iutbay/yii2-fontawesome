@@ -1,8 +1,13 @@
 <?php
+
 namespace iutbay\yii2fontawesome;
 
 use yii\helpers\Html;
 
+/**
+ * Font Awesome helper
+ * @author Kevin LEVRON <kevin.levron@gmail.com>
+ */
 class FontAwesome
 {
 
